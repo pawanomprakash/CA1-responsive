@@ -1,0 +1,51 @@
+
+@media all and (max-width:480px) {
+    #sidebar{
+     background-color:red;
+    }
+
+    .thirdnav div,.fourthnav div,.fifthnav div{
+        margin: 20px;
+    }
+    .mainpage{
+       background-color: black; 
+    }
+
+    #header{
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+    }
+    #header div{
+        display: flex;
+        justify-content: space-around;
+    }
+    .thirdnav,.fourthnav,.fifthnav{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #secondnav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #secondnav h5 {
+        flex-basis: calc(10% - 10px); 
+    }
+    caption{
+        display: none;
+    }
+    .disappear{
+        display: none;
+    }
+    #firstset img,#secondset img,#thirdset img{
+        padding-bottom: 10px ;
+        padding-right: 0px;
+    }
+}
+
+
+
+
+
+
+
